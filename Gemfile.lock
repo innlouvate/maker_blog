@@ -47,6 +47,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   launchy
+  oauth
   rspec
   sinatra
 
