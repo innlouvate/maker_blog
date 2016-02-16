@@ -25,12 +25,8 @@ http             = Net::HTTP.new address.host, address.port
 http.use_ssl     = true
 http.verify_mode = OpenSSL::SSL::VERIFY_PEER
 
-consumer_key = OAuth::Consumer.new(
-    "Mja4DqaI4HqvWN3CxqGk4Vd2R",
-    "q7KcQE5tBKTW3esAKbIVhWAFNEbQmnfke7wlM5wvFqlkJUmvvn")
-access_token = OAuth::Token.new(
-    "295564229-RG931RXDAqda2cCbXeeEGptfUMJiHrVrGQpgFFe7",
-    "GaXfcsww8moK84ugDLx0s74pNalrC1EmcKNo6p7b7VMeu")
+consumer_key = OAuth::Consumer.new()
+access_token = OAuth::Token.new()
 
 # Issue the request.
 request.oauth! http, consumer_key, access_token

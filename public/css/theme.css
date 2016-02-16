@@ -1,10 +1,11 @@
 body {
   background: #e6eaf0;
   padding: 10px;
+  width: 100%;
 }
 
 header {
-  width: 60vw;
+  width: 100%;
 }
 
 h1 {
@@ -37,7 +38,7 @@ nav > ul > li {
   font-size: 20px;
   font-family: 'Lobster', cursive;
   text-align: left;
-  padding: 10px 0 20px 0; 
+  padding: 10px 0 20px 0;
 }
 
 .twitter {
